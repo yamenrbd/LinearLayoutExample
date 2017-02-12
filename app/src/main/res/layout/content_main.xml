@@ -3,33 +3,73 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
     android:layout_marginLeft="5dp"
     android:layout_marginRight="5dp"
     android:layout_marginTop="10dp"
-    android:layout_marginBottom="5dp"
-   >
-    <TextView
+    android:orientation="vertical"
+
+    >
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="left"
         android:text="Persion #1"
-        android:textColor="#FF0000"
+        android:textAppearance="?android:textAppearanceLarge"
 
-        android:textAppearance="?android:textAppearanceLarge"/>
 
-    <TextView
+        android:textColor="#FF0000"/>
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="Persion #2"
-        android:textColor="#008000"
-        android:layout_marginLeft="10dp"
-        android:textAppearance="?android:textAppearanceLarge"/>
+        android:textAppearance="?android:textAppearanceLarge"
 
-    <TextView
+        android:textColor="#008000"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="this is #1"
+            android:textSize="22dp"
+            android:shadowColor="black"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="this is #2"
+            android:textSize="22dp"
+            android:shadowColor="black"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="this is #3"
+            android:textSize="22dp"
+            android:shadowColor="black"
+            android:textColor="@color/colorPrimary"
+            />
+
+    </LinearLayout>
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="right"
         android:text="Persion #3"
-        android:textColor="#0000FF"
-        android:layout_marginLeft="10dp"
-        android:textAppearance="?android:textAppearanceLarge"/>
+        android:textAppearance="?android:textAppearanceLarge"
+
+        android:textColor="#0000FF"/>
 
 </LinearLayout>
